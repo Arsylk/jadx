@@ -5,6 +5,7 @@ import java.util.Map;
 
 import javax.swing.UIManager;
 
+import jadx.gui.utils.themes.FlatCatppuccinLaf;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -62,6 +63,7 @@ public class LafManager {
 		map.put(SYSTEM_THEME_NAME, SYSTEM_THEME_NAME);
 
 		// default flatlaf themes
+		map.put(FlatCatppuccinLaf.NAME, FlatCatppuccinLaf.class.getName());
 		map.put(FlatLightLaf.NAME, FlatLightLaf.class.getName());
 		map.put(FlatDarkLaf.NAME, FlatDarkLaf.class.getName());
 		map.put(FlatMacLightLaf.NAME, FlatMacLightLaf.class.getName());
